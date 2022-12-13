@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+  background-image: url(./images/image\ 1.png);
+  color: black;
+
+}
+header {
+    background-image: url(./images/friend.png);
+    width: calc(100% - 60px);
+    padding: 30px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+.main >img {
+    border-radius: 20px;
+    width: 70%;
+    float:left;
+    border:1px solid black;
+
+}
+ 
+h2 {
+    width: 100%;
+    color: black;
+    padding-left: 100px;
+   text-align: center;  
+   border-bottom: 1px solid black;
+}
+
+
+
+.frst {
+    width: calc(30% - 20px);
+    padding-right: 20px;
+    float: left;
+}
+
+p{
+    width:1000px;
+    padding-top: 30%;
+    padding-left: 400px;
+    font-weight: bold;
+    color:red
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .column {
+    padding: 100px;
+    width: 800px;
+    padding-top: 500px;
+  }
+
+  img{
+    border-radius: 20px;
+    width: 70%;
+    border:1px solid black;
+  }
